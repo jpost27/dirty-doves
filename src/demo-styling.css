@@ -33,14 +33,18 @@ body{
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
+  width: 100%;
 }
 
 .header{
     text-align: center;
+    background: black;
+    color: wheat;
+    width: 100%;
 }
 
 .header h1 {
-  padding-top:5%;
+  padding-top:3%;
   margin: 0;
   font-size: calc(max(5vw, 32px));
 }
@@ -114,18 +118,22 @@ body{
   text-align: left;
   margin: 0 auto;
   list-style: none;
-  display: flex;
   justify-content: center;
   padding: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .resource-list li {
-  padding: 2%;
-  font-weight: bold;
+  padding: 0;
+  width: 150px;
+  text-align: center;
+  margin: 10px 30px;
 }
 
 .resource-list a {
-  color: black;
+  color: gray;
   line-height: 30px;
 }
 
