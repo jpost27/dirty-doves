@@ -119,7 +119,7 @@ body{
   margin: 0 auto;
   list-style: none;
   justify-content: center;
-  padding: 2%;
+  padding: 2% 0;
   display: flex;
   flex-wrap: wrap;
   width: 100%;
