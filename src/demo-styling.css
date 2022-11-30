@@ -135,6 +135,7 @@ body{
 .resource-list a {
   color: gray;
   line-height: 30px;
+  margin-top: 20px;
 }
 
 footer {
