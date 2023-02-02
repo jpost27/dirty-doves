@@ -3,6 +3,17 @@
   width: 100%;
 }
 
+.bands-in-town-container a {
+  width: fit-content;
+}
+
+.bands-in-town-container a img {
+  margin-top: 40px;
+  background-color: white;
+  width: fit-content;
+  border-radius: 8px;
+}
+
 .resource-list {
   font-family: Helvetica, Arial, sans-serif;
   font-size: larger;
